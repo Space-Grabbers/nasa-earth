@@ -90,14 +90,14 @@
 				const genCubeUrls = function ( prefix, postfix ) {
 
 					return [
-						prefix + 'px' + postfix, prefix + 'nx' + postfix,
-						prefix + 'py' + postfix, prefix + 'ny' + postfix,
-						prefix + 'pz' + postfix, prefix + 'nz' + postfix
+						prefix + 'nasa' + postfix, prefix + 'nasa' + postfix,
+						prefix + 'nasa' + postfix, prefix + 'nasa' + postfix,
+						prefix + 'nasa' + postfix, prefix + 'nasa' + postfix
 					];
 
 				};
 
-				const urls = genCubeUrls( 'textures/cube/pisa/', '.png' );
+				const urls = genCubeUrls( 'img/', '.png' );
 
 				new THREE.CubeTextureLoader().load( urls, function ( cubeTexture ) {
 
